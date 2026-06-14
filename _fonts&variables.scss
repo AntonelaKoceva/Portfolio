@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "Inter";
+    src: url(fonts/Inter_24pt-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Inter";
+    src: url(fonts/Inter_24pt-SemiBold.woff2);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: "Nunito";
+    src: url(fonts/Nunito-Medium.woff2);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: "Nunito";
+    src: url(fonts/Nunito-SemiBold.woff2);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: "Nunito";
+    src: url(fonts/Nunito-Bold.woff2);
+    font-weight: 700;
+}
+
+//fonts
+$font-inter: "Inter";
+$font-nunito: "Nunito";
+
+//Breakpoints
+$grid-breakpoints:("xs": 420px,
+  "s":560px,
+  "m": 768px,
+  "l": 1024px,
+  "xl": 1200px);
+
+//colors
+$color-paper: #f6f4f1;
+$color-white: #fffff5;
+$color-stone: #e4ded2;
+$color-coral: #f95c4b;
+$color-black: #000000;
+
