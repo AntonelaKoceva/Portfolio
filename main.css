@@ -357,7 +357,7 @@ body {
     margin-top: 80%;
     margin-bottom: 30%;
     gap: 15px;
-    padding-top: 20%;
+    padding-top: 30%;
   }
   .main .about-section h2 {
     padding-top: 2px;
@@ -374,6 +374,7 @@ body {
   }
   .main .project-section {
     margin-top: 40%;
+    padding-top: 15%;
   }
 }
 
