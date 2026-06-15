@@ -266,7 +266,7 @@ body {
   flex-grow: 0;
   box-shadow: 0px 0px 50px #c6b1af;
 }
-.main .project-section .project-container .project-cards .card img {
+.main .project-section .project-container .project-cards .card .img {
   border-radius: 16px;
   width: 90%;
   height: auto;
@@ -276,6 +276,22 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .project-section .project-container .project-cards .card span .coding-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 10px;
+  font-family: "Nunito";
+  font-size: 8px;
+  font-weight: 600;
+  color: #f95c4b;
 }
 .main .project-section .project-container .project-cards .card p {
   font-family: "Nunito";
