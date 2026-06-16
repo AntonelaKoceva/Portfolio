@@ -405,6 +405,10 @@ body {
 }
 .footer a {
   padding: 10px 10px;
+  padding-top: 15px;
+}
+.footer #github-icon:hover {
+  cursor: pointer;
 }
 .footer #footer-items {
   padding-left: 50px;

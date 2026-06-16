@@ -120,7 +120,6 @@
                 border: 3px solid $color-paper;
                 transform: scale(1.4);
                 margin-left: 60px;
-                // max-width: 90%;
             }
         }
     }
@@ -370,7 +369,6 @@
             .hero-image {
                 position: absolute;
                 top: 0px;
-                // right: -45px;
 
                 img {
                     transform: scale(1);
@@ -422,6 +420,13 @@
 
     a {
         padding: 10px 10px;
+        padding-top: 15px;
+    }
+
+    #github-icon{
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     #footer-items {
@@ -435,7 +440,6 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            // gap: 10%;
             gap: 20px;
 
             a {
